@@ -1,0 +1,10 @@
+{
+  "MSFT": {
+    "quantity": 200,
+    "avg_price": 310.5
+  },
+  "GOOGL": {
+    "quantity": 20,
+    "avg_price": 192.9
+  }
+}
