@@ -32,7 +32,7 @@ Prerequisites: Ensure you have Python 3.x installed.
 
 Clone the repository:
 
-git clone [https://github.com/aaryamanchanda/Portfolio-Tracker.git](https://github.com/aaryamanchanda/Portfolio-Tracker.git)
+git clone [https://github.com/aaryamanchanda/Portfolio_Tracker.git](https://github.com/aaryamanchanda/Portfolio_Tracker.git)
 cd Portfolio-Tracker
 
 

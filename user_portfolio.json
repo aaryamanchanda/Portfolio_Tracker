@@ -6,5 +6,9 @@
   "GOOGL": {
     "quantity": 20,
     "avg_price": 192.9
+  },
+  "AAPL": {
+    "quantity": 20,
+    "avg_price": 172.1
   }
 }
