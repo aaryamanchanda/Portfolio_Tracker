@@ -19,10 +19,15 @@ Error Handling: Robust validation for user inputs (e.g., preventing negative qua
 The project follows a modular design pattern:
 
 cli-portfolio-tracker/
+
 ├── main.py              # Entry point: Handles User Interface and CLI loop
+
 ├── portfolio.py         # Business Logic: Calculations and data processing
+
 ├── storage.py           # Data Persistence: Handles reading/writing JSON files
+
 ├── market_data.json     # Mock/Real data source for current asset prices
+
 └── user_portfolio.json  # Database: Stores user's specific holdings
 
 
