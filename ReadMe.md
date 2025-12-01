@@ -1,8 +1,8 @@
-📈 CLI Portfolio Tracker
+# 📈 CLI Portfolio Tracker
 
 A robust Command Line Interface (CLI) application built with Python to track, manage, and analyze investment portfolios. This tool allows users to add assets, remove holdings, and view real-time performance summaries using a JSON-based storage system.
 
-🚀 Features
+## 🚀 Features
 
 Portfolio Management: Add, remove, and update asset holdings easily.
 
@@ -14,7 +14,7 @@ Modular Architecture: Clean separation of concerns between UI, logic, and data s
 
 Error Handling: Robust validation for user inputs (e.g., preventing negative quantities).
 
-📂 Project Structure
+## 📂 Project Structure
 
 The project follows a modular design pattern:
 
@@ -26,7 +26,7 @@ cli-portfolio-tracker/
 └── user_portfolio.json  # Database: Stores user's specific holdings
 
 
-🛠️ Installation & Setup
+## 🛠️ Installation & Setup
 
 Prerequisites: Ensure you have Python 3.x installed.
 
@@ -41,7 +41,7 @@ Run the Application:
 python main.py
 
 
-📖 Usage Guide
+## 📖 Usage Guide
 
 Once the application is running, follow the on-screen menu prompts:
 
@@ -53,7 +53,7 @@ Remove Asset: Sell or remove a specific asset from your list.
 
 Exit: Saves any final changes and closes the program.
 
-🧠 Implementation Approach
+## 🧠 Implementation Approach
 
 This project uses a modular architecture to ensure maintainability and scalability:
 
@@ -63,7 +63,7 @@ Core Logic (portfolio.py): Contains the "brains" of the operation. It handles th
 
 Data Layer (storage.py): Abstracts file I/O. The main application doesn't need to know how data is saved, only that it is safe. We use JSON for storage because it maps perfectly to Python dictionaries and is lightweight.
 
-💡 Key Learnings
+## 💡 Key Learnings
 
 State Management: Synchronizing in-memory data with disk storage is critical. I implemented a "save-on-write" strategy (saving immediately after adding/removing assets) rather than "save-on-exit" to prevent data loss during crashes.
 
@@ -71,7 +71,7 @@ Robust Error Handling: The importance of wrapping user inputs in try/except bloc
 
 Separation of Concerns: Initially, much of the logic was in main.py. Refactoring code into storage.py and portfolio.py made the codebase significantly cleaner and easier to debug.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 API Integration: Replace market_data.json with a live API (e.g., Yahoo Finance or CoinGecko) for real-time pricing.
 
@@ -79,4 +79,4 @@ Visualization: Integrate matplotlib to generate pie charts of portfolio allocati
 
 Transaction History: Create a log file to track buy/sell history over time.
 
-Created by Aarya Manchanda
+### Created by Aarya Manchanda
